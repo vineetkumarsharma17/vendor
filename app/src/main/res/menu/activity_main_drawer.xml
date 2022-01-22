@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/icon_home"
+        android:title="Home" />
+
+    <item android:title="Catalog">
+        <menu>
+            <item
+                android:id="@+id/Empanelments"
+                android:title="My Orders" />
+            <item
+                android:id="@+id/category"
+                android:title="Category" />
+
+            <item
+                android:id="@+id/products"
+                android:title="Products" />
+        </menu>
+    </item>
+    <item android:title="Information">
+        <menu>
+            <item
+                android:id="@+id/doctors"
+                android:title="My Account" />
+
+            <item
+                android:id="@+id/technology"
+                android:title="Facility" />
+            <item
+                android:id="@+id/hours"
+                android:title="Hours" />
+
+            <item
+                android:id="@+id/password"
+                android:title="Password" />
+            <item
+                android:id="@+id/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+
+
+</menu>

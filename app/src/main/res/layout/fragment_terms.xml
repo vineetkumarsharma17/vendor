@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      <TextView
+          android:text="Terms and Condition"
+          android:textSize="18dp"
+          android:textStyle="bold"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="USER AGREEMENT"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:text="Your use of our website, App and services available on website is governed by the following terms and conditions."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="AMENDMENT TO USER(S) AGREEMENT"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:text="We may change, modify, amend, or update this agreement from time to time without any prior notification to user(s) and the amended and restated terms and conditions of use shall be effective immediately on posting. You are advised to regularly check for any amendments or updates to the terms and conditions contained in this User Agreement. If you do not adhere to the changes, you must stop using the service. Your continuous use of the service will signify your acceptance of the changed terms."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="USER(S) ELIGIBILITY"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:text="User(s) means any individual or business entity/organization that legally operates in India or in other countries, uses and has the right to use the services provided by us. Our services are available only to those individuals or companies who can form legally binding contracts under the applicable law i.e. Indian Contract Act, 1872. As a minor if you wish to purchase or sell an item on the Website such purchase or sale may be made by your legal guardian or parents who have registered as users of the Website. We advises its users that while accessing the website, they must follow/abide by the related laws. We are not responsible for the possible consequences caused by your behavior during use of website. We  may, in its sole discretion, reserve the right to terminate your membership and refuse to provide you with access to the Website at any time."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="ELECTRONIC COMMUNICATIONS"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:text="When You use the Website or send emails or other data, information or communication to us, You agree and understand that You are communicating with us through electronic records and You consent to receive communications via electronic records from us periodically and as and when required."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="REGISTRATION AND YOUR ACCOUNT"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:text="To become a Registered User(s) there is a proper procedure which is for the convenience of user(s) so that they can easily log-in and log-out. User(s) can become a Registered User(s) by filling an on-line registration form on the website by giving desired information (name, contact information, details etc.). We will establish an account (Account) for the user(s) upon registration and assign a user alias (User ID) and password (Password) for log-in access to your Account. If you use the Website as Registered User, you are responsible for maintaining the confidentiality of your User ID and Password. You are responsible for maintaining the confidentiality of your personal and non-personal information and for restricting access to your computer, computer system and computer network, and you are responsible for all activities that occur under your User ID and Password , email id and cell number as the case may be."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="USE OF THE OUR WEBSITE/APP"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:text="You understand and agree that We and the Website merely provide hosting services to its Registered Users and persons browsing/visiting the Website. All items advertised/listed and the contents therein are advertised and listed by Registered Users and are third party user generated contents. We have no control over the third party user generated contents."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:text="Please note that in accordance with the Information Technology (Intermediaries guidelines) Rules 2011 in case of non-compliance with user agreement and privacy policy for access or usage of intermediary computer resource, the Intermediary has the right to immediately terminate the access or usage rights"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:text="From time to time, you shall be responsible for providing information relating to the items or services proposed to be sold by you. In this connection, you undertake that all such information shall be accurate in all respects. You shall not exaggerate or over emphasize the item-specifics of such items or services so as to mislead other Users in any manner."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

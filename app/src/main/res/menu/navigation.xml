@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_cart"
+        android:icon="@drawable/icon_home1"
+        app:showAsAction="always"
+        android:title="Home" />
+    <item
+        android:id="@+id/navigation_gifts"
+        android:icon="@drawable/mybooking"
+        app:showAsAction="withText"
+        android:title="Help Center" />
+    <item
+        android:id="@+id/navigation_order"
+        android:icon="@drawable/help"
+        app:showAsAction="never"
+        android:title="Products" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/account"
+        app:showAsAction="never"
+        android:title="Account" />
+</menu>

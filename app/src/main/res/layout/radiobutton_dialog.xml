@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="240dp"
+    android:padding="20dp"
+    android:orientation="vertical">
+    <TextView
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:text="Update Status?"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_marginTop="15dp"
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+    </RadioGroup>
+    <EditText
+        android:id="@+id/mycomment"
+        android:padding="15dp"
+        android:background="@drawable/borderall"
+        android:hint="Comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_margin="5dp"
+        android:id="@+id/updatebutton"
+        android:text="Update"
+        android:background="@color/orangelight"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

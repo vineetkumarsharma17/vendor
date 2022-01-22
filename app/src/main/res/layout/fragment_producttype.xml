@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:background="#ccc"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></LinearLayout>
+            <TextView
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:background="@drawable/border_set"
+                android:text="Product type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/profile"
+                android:padding="15dp"
+                android:background="@drawable/border_set"
+                android:text="Restaurant Menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/address"
+                android:padding="15dp"
+                android:background="@drawable/border_set"
+                android:text="Party"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/helpcenter"
+                android:padding="15dp"
+                android:background="@drawable/border_set"
+                android:text="Medicated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:background="#ccc"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></LinearLayout>
+            <TextView
+                android:id="@+id/aboutus"
+                android:padding="15dp"
+                android:background="@drawable/border_set"
+                android:text="Tiffin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/grocery"
+                android:padding="15dp"
+                android:background="@drawable/border_set"
+                android:text="Grocery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

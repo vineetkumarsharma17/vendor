@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="#ddd"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="5dp"
+            android:text="Facility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:inputType="number"
+            android:background="@drawable/borderall"
+            android:padding="8dp"
+            android:layout_margin="5dp"
+            android:id="@+id/ed1"
+            android:hint="Base Delivery Charge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:inputType="number"
+            android:background="@drawable/borderall"
+            android:padding="8dp"
+            android:layout_margin="5dp"
+            android:id="@+id/ed2"
+            android:hint="Additional per Item Charge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:inputType="number"
+            android:background="@drawable/borderall"
+            android:padding="8dp"
+            android:layout_margin="5dp"
+            android:id="@+id/ed3"
+            android:hint="Base Preparation minutes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_principal4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:inputType="number"
+            android:background="@drawable/borderall"
+            android:padding="8dp"
+            android:layout_margin="5dp"
+            android:id="@+id/ed4"
+            android:hint="Per Item Addtional Minutes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_principal5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:inputType="number"
+            android:background="@drawable/borderall"
+            android:padding="8dp"
+            android:layout_margin="5dp"
+            android:id="@+id/ed5"
+            android:hint="Food for 2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Spinner
+            android:background="@drawable/borderall"
+            android:padding="8dp"
+            android:entries="@array/vegnonveg"
+            android:layout_margin="5dp"
+            android:id="@+id/ed6"
+            android:hint="State"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.TextInputLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:background="@drawable/borderall"
+            android:padding="8dp"
+            android:layout_margin="5dp"
+            android:id="@+id/ed7"
+            android:hint="Delivery Range (in Km)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:text="Update"
+            android:id="@id/btn1"
+            android:textColor="#fff"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#f30"
+            android:layout_marginTop="15dp"
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

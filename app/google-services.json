@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "470072486906",
+    "firebase_url": "https://hanszaika-158f6.firebaseio.com",
+    "project_id": "hanszaika-158f6",
+    "storage_bucket": "hanszaika-158f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470072486906:android:db8cb7f6218df30b845243",
+        "android_client_info": {
+          "package_name": "com.mbl.hanszaika"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470072486906-6pdurbtlbmjnbohp21dktnaugvfo2gq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwsp9qc2PHTXGFGvn2n3810to0NX2poJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470072486906-6pdurbtlbmjnbohp21dktnaugvfo2gq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470072486906:android:aeefda308ece8b93845243",
+        "android_client_info": {
+          "package_name": "com.mbl.zaikavendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470072486906-6pdurbtlbmjnbohp21dktnaugvfo2gq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwsp9qc2PHTXGFGvn2n3810to0NX2poJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470072486906-6pdurbtlbmjnbohp21dktnaugvfo2gq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
